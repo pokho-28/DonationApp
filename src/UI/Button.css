@@ -1,0 +1,18 @@
+.btn{
+    padding: 8px 12px; 
+    border: none;
+    cursor: pointer;
+    transition: scale .4s;
+    text-align: center;
+    border-radius: 6px;
+    background-color: rgb(89, 129, 72);
+    color: white;
+    float: right;
+    margin-right: 48px;
+    margin-top: 10px;
+}
+
+.btn:hover{
+    scale: 1.1;
+
+}

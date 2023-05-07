@@ -1,0 +1,13 @@
+.inputText{
+    padding:10px;
+    border-radius: 8px;
+    width:65%;
+    border: 1px solid black;
+    margin-top: 15px;
+
+}
+
+.inputText:focus{
+    background-color: rgba(83, 175, 44, 0.281);
+    border-color: rgb(89, 129, 72);
+}
