@@ -1,0 +1,34 @@
+.login_card{
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    height: 65%;
+    translate: 22% 26%;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    box-shadow: 5px 5px 10px rgba(123, 123, 123, 0.409);
+}
+
+.signup{
+    background: linear-gradient(to bottom right,#f07941 , #d30d77);
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+   
+}
+.signup_btn{
+    padding: 12px 20px;
+    border: 2px solid white;
+    font-size: 16.4px;
+    border-radius: 50px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    transition: transform 0.2s ease-in;
+}
+.signup_btn:hover{
+    transform: scale(1.1);
+}
