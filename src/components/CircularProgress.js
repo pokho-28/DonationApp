@@ -1,16 +1,27 @@
-import { useState } from 'react';
-import React from 'react'
-import './CircularProgress.css'
-import { Circle} from 'rc-progress';
+import { useState } from "react";
+import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
+import "react-circular-progressbar/dist/styles.css";
 
 function CircularProgress() {
-    const [percentage,setPercentage] = useState(30);
+  const [percentage, setPercentage] = useState(50);
 
   return (
-    <div className="progress" style={{width:"28px" ,height : "28px"}}>
-        <Circle percent={percentage} strokeWidth={12} strokeColor="green" trailWidth={12}/>
+    <div className="progress" style={{ width: "50px", height: "50px" }}>
+      <CircularProgressbar
+        value={percentage}
+        text={`${percentage}%`}
+        strokeWidth={12}
+        strokeColor="green"
+        minValue={1}
+        maxValue={100}
+        styles={buildStyles({
+          textSize: "30px",
+          textColor: "black",
+          pathColor: "#6ff542",
+        })}
+      />
     </div>
-  )
+  );
 }
 
-export default CircularProgress
+export default CircularProgress;

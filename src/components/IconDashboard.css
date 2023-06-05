@@ -1,26 +1,51 @@
-.App {
-    background-color: #282c34;
-    margin: auto;
-    transform: translate(2% , 50%);
+.icon-dashboard{
+  background-color: white;
     width: 100%;
-    height: 50vh;
+    min-height: 80vh;
     display: grid;
+    margin: auto;
     grid-template-columns: repeat(3 , 1fr);
+    text-align: center;
+    
+  }
+  .item1{
+   
+    color : black;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+  }
+  .item{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    justify-self: center;
+    align-self: center;
+  }
+  .item2{
+    align-self: end;
+    color: #3CB2BA;
   }
   
   .iconItem{
-    height: 23px;
-    width: 30px;
+    height: 100px;
+    width: 100px;
     justify-self: center;
     align-self: end;
     margin-bottom: 10px;
     cursor: pointer;
     transition: transform 0.2s;
+    color : black;
   
   }
-  p{
-    color: white;
+  .icon-dashboard p{
+    color: #818181;
     text-align: center;
+    font-size: large;
+    font-weight: 600;
+    padding:2px 20px;
+  }
+  .icon-dashboard p h2{
+    color : black;
   }
   .icon{
     color: white;
@@ -28,5 +53,8 @@
    
   }
   .iconItem:hover{
-    transform: scale(1.2);
+    transform: scale(1.2);    
+  }
+  h2{
+    font-weight: 600;
   }

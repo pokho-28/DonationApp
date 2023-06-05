@@ -1,0 +1,15 @@
+.heading{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 30px;
+}
+#aboutImg{
+    float: right;
+    margin-right: 5%;
+}
+h3{
+    color: #3CB2BA;
+    text-align: center;
+}

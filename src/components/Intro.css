@@ -1,0 +1,45 @@
+.intro{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    background-color: #FFF4EF;
+    min-height : 89vh;
+    padding-top: 93px;
+}
+.quote{
+    font-family: 'Playfair Display', serif;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 46px;
+    justify-self: center;
+    align-self: center;
+}
+.content{
+    margin-bottom: 20px;
+}
+
+.actionBtn{
+    justify-self: center;
+    align-self: center;
+}
+
+.fundBtn{
+    padding: 25px 32px;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    width: 28%;
+    margin-top: 12px;
+    border-radius: 41px;
+    border: none;
+    background: linear-gradient(to right,#f07941 , #d30d77);
+    cursor: pointer;
+    transition: transform 0.2s ease-in;
+    float: left;
+}
+.fundBtn:hover{
+    transform:scale(1.1);
+}
+
+

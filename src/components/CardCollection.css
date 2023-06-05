@@ -1,0 +1,17 @@
+.cards{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    overflow: scroll;
+    column-gap: 40px;
+    
+}
+.cards p {
+    font-size: 16px;
+}
+.cards::-webkit-scrollbar{
+    display: none;
+}
+.card-collection{
+    min-height: 80vh;
+}

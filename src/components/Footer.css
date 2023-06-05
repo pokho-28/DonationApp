@@ -1,0 +1,31 @@
+.footer{
+    margin-top: 15%;
+    width: 100%;
+    background-color: #2b2929;
+    height: 120px ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer p{
+    font-size: 18px;
+}
+.icons-collection{
+    display: flex;
+    gap: 20%;
+}
+.icons-collection a{
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.icons-collection a:hover{
+    color: #3CB2BA;
+    transform: scale(1.1);
+}
+.social-icons svg{
+    width: 25px;
+    height: 25px;
+}
